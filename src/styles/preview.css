@@ -1,0 +1,100 @@
+.profile-card {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.profile-card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #6b21a8;
+}
+
+.profile-card p {
+  margin: 4px 0;
+  color: #4b5563;
+  font-size: 1rem;
+}
+
+.profile-card strong {
+  display: block;
+  margin-top: 16px;
+  font-size: 1.1rem;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 4px;
+}
+
+.skill {
+  display: inline-block;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin: 6px 6px 0 0;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.skill:hover {
+  background: #c4b5fd;
+  transform: scale(1.05);
+}
+
+.project {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 14px;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.project h4 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+  color: #6b21a8;
+}
+
+.project p {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.project a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.profile-card a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.profile-card a:hover {
+  text-decoration: underline;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}

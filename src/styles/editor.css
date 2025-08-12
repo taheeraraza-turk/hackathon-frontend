@@ -1,0 +1,107 @@
+/* Form Container */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Labels */
+label {
+  font-weight: 500;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+/* Inputs & Textareas */
+input,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background: #f9fafb;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6b21a8;
+  box-shadow: 0 0 0 2px rgba(107, 33, 168, 0.2);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+/* Project Card */
+.project {
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Full-width action buttons */
+button.full-width {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #8b5cf6, #6b21a8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button.full-width:hover {
+  background: linear-gradient(135deg, #6b21a8, #4c1d95);
+  transform: translateY(-2px);
+}
+
+
+
+/* Remove Project Button */
+.project button {
+  width: 100%;
+  background: #ef4444;
+  color: white;
+}
+
+.project button:hover {
+  background: #dc2626;
+}
